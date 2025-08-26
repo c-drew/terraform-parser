@@ -1,0 +1,27 @@
+{
+    "jobs": {
+        "etl_workflow": [
+            {
+                "task_key": "Extract",
+                "depends_on_task": null
+            },
+            {
+                "task_key": "Transform",
+                "depends_on_task": "Extract"
+            },
+            {
+                "task_key": "Load",
+                "depends_on_task": "Transform"
+            }
+        ]
+    },
+    "clusters": {
+        "etl_cluster": {
+            "cluster_name": "ETL-Cluster",
+            "spark_version": "13.3.x-scala2.12",
+            "node_type_id": "i3.xlarge",
+            "autotermination_minutes": 20,
+            "num_workers": 2
+        }
+    }
+}

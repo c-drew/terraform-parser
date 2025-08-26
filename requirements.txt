@@ -1,0 +1,17 @@
+# Terraform HCL Parser Dependencies
+# Core HCL parsing
+python-hcl2>=4.3.0
+
+# Lark parser (dependency of python-hcl2, but good to be explicit)
+lark>=1.1.0
+
+# Standard library equivalents (usually included with Python, but just in case)
+# json - built-in
+# os - built-in  
+# io - built-in
+# typing - built-in (Python 3.5+)
+
+# Optional: For enhanced development experience
+# pytest>=7.0.0  # For testing
+# black>=22.0.0   # For code formatting
+# flake8>=4.0.0   # For linting
