@@ -21,4 +21,5 @@ graph TD
     cluster_etl_cluster -->|uses| etl_workflow_Extract
     cluster_etl_cluster -->|uses| etl_workflow_Transform
     cluster_etl_cluster -->|uses| etl_workflow_Load
+    click cluster_etl_cluster "https://github.com"
 ```
