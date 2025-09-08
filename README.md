@@ -7,7 +7,7 @@ pip install -r requirements.txt
 python parse_tf.py
 ```
 
-## example mermaid
+## example databricks architecture diagram
 ```mermaid
 graph TD
     subgraph etl_workflow
