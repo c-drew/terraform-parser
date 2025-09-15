@@ -7,6 +7,8 @@ pip install -r requirements.txt
 python parse_tf.py
 ```
 
+[`main.tf`](./test/databricks/main.tf#L25-L32)
+
 ## example databricks architecture diagram
 ```mermaid
 graph TD
