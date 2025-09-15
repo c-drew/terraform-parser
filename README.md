@@ -24,7 +24,7 @@ graph TD
     cluster_etl_cluster -->|uses| etl_workflow_Transform
     cluster_etl_cluster -->|uses| etl_workflow_Load
     click cluster_etl_cluster "https://github.com"
-    click etl_workflow_Transform "https://github.com/c-drew/terraform-parser/blob/main/test/databricks/main.tf#L25-L32"
+    click etl_workflow_Transform "./test/databricks/main.tf#L25-L32"
     click etl_workflow_Extract "https://github.com"
     click etl_workflow_Load "https://github.com"
 ```
